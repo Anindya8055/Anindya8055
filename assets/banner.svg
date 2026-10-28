@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+<style>
+.n{font:900 64px 'Segoe UI',Arial,sans-serif;letter-spacing:4px}
+.s{font:700 18px 'Segoe UI',Arial,sans-serif;letter-spacing:6px;fill:#c9d1d9}
+.p{animation:p 3s ease-in-out infinite}@keyframes p{50%{opacity:.55}}
+.grid line{stroke:#7c3aed;stroke-opacity:.25}
+</style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b0420"/><stop offset="1" stop-color="#020617"/></linearGradient>
+<linearGradient id="tx" x1="0" x2="1"><stop offset="0" stop-color="#00f0ff"/><stop offset=".5" stop-color="#a855f7"/><stop offset="1" stop-color="#ff2bd6"/></linearGradient>
+<filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="900" height="300" rx="16" fill="url(#bg)"/>
+<g class="grid">
+<line x1="0" y1="240" x2="900" y2="240"/><line x1="0" y1="262" x2="900" y2="262"/><line x1="0" y1="282" x2="900" y2="282"/>
+<line x1="450" y1="225" x2="0" y2="300"/><line x1="450" y1="225" x2="225" y2="300"/><line x1="450" y1="225" x2="450" y2="300"/><line x1="450" y1="225" x2="675" y2="300"/><line x1="450" y1="225" x2="900" y2="300"/>
+</g>
+<path d="M450 40 l38 14 v30 c0 26-18 40-38 48 c-20-8-38-22-38-48 v-30z" fill="none" stroke="url(#tx)" stroke-width="3" filter="url(#glow)" class="p"/>
+<text x="450" y="185" text-anchor="middle" class="n" fill="url(#tx)" filter="url(#glow)">ANINDYA</text>
+<text x="450" y="222" text-anchor="middle" class="s">BLUE TEAM · SOC ANALYST · ENGINEER</text>
+</svg>

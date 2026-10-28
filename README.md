@@ -1,116 +1,116 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0f3d3e,100:00d4aa&height=200&section=header&text=Anindya%20Chakraborty&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Blue%20Team%20%E2%80%A2%20SOC%20Analyst%20in%20training%20%E2%80%A2%20Software%20Engineer&descAlignY=58&descSize=16" width="100%"/>
+<img src="assets/banner.svg" width="100%" alt="Anindya Chakraborty: Blue Team, SOC Analyst, Engineer"/>
 
-<a href="https://github.com/Anindya8055">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=800&color=00D4AA&center=true&vCenter=true&width=620&lines=Reading+packets+so+you+don't+have+to.;Wireshark+%E2%80%A2+Splunk+%E2%80%A2+Linux+%E2%80%A2+MITRE+ATT%26CK;Builder+turned+defender.;Follow+the+evidence.+Report+what's+proven." alt="typing intro"/>
-</a>
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=22&duration=2800&pause=700&color=00F0FF&center=true&vCenter=true&width=700&lines=I+BUILT+SOFTWARE.+NOW+I+DEFEND+IT.;READING+PACKETS+SO+YOU+DON'T+HAVE+TO.;WIRESHARK+%E2%80%A2+SPLUNK+%E2%80%A2+LINUX+%E2%80%A2+MITRE+ATT%26CK;FOLLOW+THE+EVIDENCE.+REPORT+WHAT'S+PROVEN." alt="typing intro"/>
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anindya-chakraborty-9736a2447/)
-[![Email](https://img.shields.io/badge/Email-Say_hi-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anindyac708@gmail.com)
-[![Portfolio](https://img.shields.io/badge/SOC_Portfolio-View_cases-00D4AA?style=for-the-badge&logo=hackthebox&logoColor=black)](https://github.com/Anindya8055/soc-investigations)
-![Location](https://img.shields.io/badge/Dhaka,_Bangladesh-UTC+6-1f2937?style=for-the-badge&logo=googlemaps&logoColor=white)
+<a href="https://www.linkedin.com/in/anindya-chakraborty-9736a2447/"><img src="https://img.shields.io/badge/LINKEDIN-0b0420?style=for-the-badge&logo=linkedin&logoColor=00f0ff&labelColor=0b0420&color=00f0ff"/></a>
+<a href="mailto:anindyac708@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0b0420?style=for-the-badge&logo=gmail&logoColor=ff2bd6"/></a>
+<a href="https://github.com/Anindya8055/soc-investigations"><img src="https://img.shields.io/badge/SOC_PORTFOLIO-0b0420?style=for-the-badge&logo=hackthebox&logoColor=a855f7"/></a>
+<img src="https://img.shields.io/badge/OPEN_TO_WORK-a855f7?style=for-the-badge&logo=target&logoColor=white"/>
 
 </div>
 
----
+<img src="assets/divider.svg" width="100%"/>
 
-## 🛡️ Who I am
+## ⚡ `> whoami`
 
-```yaml
-name:      Anindya Chakraborty
-role:      Junior Software Engineer @ Savvy Techmart
-heading:   Entry-level SOC Analyst / Security Operations
-degree:    B.Sc. Computer Science & Engineering, AIUB (2026), CGPA 3.62
-lab:       Arch Linux (Omarchy) • isolated low-privilege analysis account
-focus:     [network traffic analysis, log investigation, threat mapping]
-mindset:   "Tag only what the evidence supports."
-```
+<table><tr><td>
 
-I spent the last few years **building** software: web apps, API integrations, scrapers and automation tools.
-Now I'm putting that to work on **defending** it. I investigate real malware traffic captures and SIEM logs
-in my own home lab, and I write each one up like a real incident report.
+**Anindya Chakraborty**, a software engineer turned **Blue Teamer** from Dhaka, Bangladesh 🇧🇩
 
----
+- 💼 **Junior Software Engineer** @ Savvy Techmart: I build and secure live web tools
+- 🛡️ **Training for SOC Analyst**: I hunt malware in real traffic captures and SIEM logs
+- 🎓 **B.Sc. CSE**, AIUB (2026), CGPA 3.62
+- 🧪 **Home lab:** Arch Linux, isolated low-privilege analysis account, malware **never executed**
+- 🧭 **Rule I work by:** *tag only what the evidence supports*
 
-## 🔎 Featured: SOC Investigations
+</td></tr></table>
 
-> Home-lab investigations of real-world training captures. Malware is **never executed**. Hashes are checked by lookup only.
+<img src="assets/divider.svg" width="100%"/>
 
-| Case | Threat | What I did | Tools |
-|---|---|---|---|
-| [Easy As 123](https://github.com/Anindya8055/soc-investigations) | NetSupport Manager RAT | Spotted C2 beaconing, identified host, user & full name via DHCP / Kerberos / SAMR | Wireshark |
-| [SSH Dictionary Attack](https://github.com/Anindya8055/soc-investigations) | Brute force | 948 failed SSH logins from one IP, checked for any success, mapped to T1110 | Splunk (SPL) |
-| [Natureforce](https://github.com/Anindya8055/soc-investigations) | CNCmachineRMS RAT | Traced an executable over port 9000, pulled its SHA-256, confirmed via VirusTotal | Wireshark, tshark |
-| [Kongtuke Rebuke](https://github.com/Anindya8055/soc-investigations) | ClickFix | Started with no IOC, hunted through DNS & TLS SNI to find the infected host | Wireshark |
+## 🔎 `> cat cases/`
 
 <div align="center">
 
-**More cases coming:** FormBook • Lumma Stealer • "It's a Trap!"
+| 🗂️ CASE | ☣️ THREAT | 🎯 WHAT I PROVED | 🧰 TOOLS |
+|:--|:--|:--|:--|
+| **[Easy As 123](https://github.com/Anindya8055/soc-investigations)** | NetSupport RAT | C2 beaconing → host, user & full name via DHCP · Kerberos · SAMR | Wireshark |
+| **[SSH Dictionary Attack](https://github.com/Anindya8055/soc-investigations)** | Brute force | 948 failed logins from one IP, zero successes, mapped to **T1110** | Splunk SPL |
+| **[Natureforce](https://github.com/Anindya8055/soc-investigations)** | CNCmachineRMS RAT | Malware over port 9000 → SHA-256 → VirusTotal confirmed | Wireshark · tshark |
+| **[Kongtuke Rebuke](https://github.com/Anindya8055/soc-investigations)** | ClickFix | No IOC given, hunted it down through DNS & TLS SNI | Wireshark |
+
+<a href="https://github.com/Anindya8055/soc-investigations"><img src="https://img.shields.io/badge/%E2%96%B6_OPEN_THE_CASE_FILES-ff2bd6?style=for-the-badge"/></a>
+
+`NEXT UP ▸ FormBook · Lumma Stealer · "It's a Trap!"`
 
 </div>
 
----
+<img src="assets/divider.svg" width="100%"/>
 
-## 🧰 Toolkit
+## 🧰 `> ls arsenal/`
 
-**Security / Blue Team**
+<div align="center">
 
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
-![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white)
-![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-C8102E?style=flat-square&logoColor=white)
-![VirusTotal](https://img.shields.io/badge/VirusTotal-394EFF?style=flat-square&logo=virustotal&logoColor=white)
-![tcpdump](https://img.shields.io/badge/tcpdump%20%2F%20tshark-374151?style=flat-square&logoColor=white)
-![Tor](https://img.shields.io/badge/Tor-7D4698?style=flat-square&logo=torproject&logoColor=white)
-![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=flat-square&logo=archlinux&logoColor=white)
+**🛡️ DEFEND**<br/>
+<img src="https://img.shields.io/badge/Wireshark-0b0420?style=for-the-badge&logo=wireshark&logoColor=00f0ff"/>
+<img src="https://img.shields.io/badge/Splunk-0b0420?style=for-the-badge&logo=splunk&logoColor=00f0ff"/>
+<img src="https://img.shields.io/badge/MITRE_ATT%26CK-0b0420?style=for-the-badge&logoColor=00f0ff"/>
+<img src="https://img.shields.io/badge/VirusTotal-0b0420?style=for-the-badge&logo=virustotal&logoColor=00f0ff"/>
+<img src="https://img.shields.io/badge/tcpdump_%2F_tshark-0b0420?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Tor-0b0420?style=for-the-badge&logo=torproject&logoColor=00f0ff"/>
+<img src="https://img.shields.io/badge/Arch_Linux-0b0420?style=for-the-badge&logo=archlinux&logoColor=00f0ff"/>
 
-**Build / Automate**
+**⚙️ BUILD**<br/>
+<img src="https://img.shields.io/badge/Python-0b0420?style=for-the-badge&logo=python&logoColor=ff2bd6"/>
+<img src="https://img.shields.io/badge/TypeScript-0b0420?style=for-the-badge&logo=typescript&logoColor=ff2bd6"/>
+<img src="https://img.shields.io/badge/JavaScript-0b0420?style=for-the-badge&logo=javascript&logoColor=ff2bd6"/>
+<img src="https://img.shields.io/badge/React-0b0420?style=for-the-badge&logo=react&logoColor=ff2bd6"/>
+<img src="https://img.shields.io/badge/Next.js-0b0420?style=for-the-badge&logo=next.js&logoColor=ff2bd6"/>
+<img src="https://img.shields.io/badge/Node.js-0b0420?style=for-the-badge&logo=node.js&logoColor=ff2bd6"/>
+<img src="https://img.shields.io/badge/Flask-0b0420?style=for-the-badge&logo=flask&logoColor=ff2bd6"/>
+<img src="https://img.shields.io/badge/FastAPI-0b0420?style=for-the-badge&logo=fastapi&logoColor=ff2bd6"/>
+<img src="https://img.shields.io/badge/Nginx-0b0420?style=for-the-badge&logo=nginx&logoColor=ff2bd6"/>
+<img src="https://img.shields.io/badge/SQL-0b0420?style=for-the-badge&logo=mysql&logoColor=ff2bd6"/>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+</div>
 
----
+<img src="assets/divider.svg" width="100%"/>
 
-## 🛠️ Things I've built
+## 🛠️ `> ls builds/`
 
-| Project | What it does | Stack |
-|---|---|---|
-| [**Huntbox**](https://github.com/Anindya8055/Huntbox) | Pulls Product Hunt launches, ranks them, and adds company domains & public contacts | FastAPI, GraphQL, SQLite |
-| [**LeadMap**](https://github.com/Anindya8055/Google-Maps-Scraper-) | Google Maps lead finder with website checks (SSL, domain age, platform) and 0–100 lead scoring | Next.js, Prisma, SQLite |
-| [**Face Shape Detector**](https://github.com/Anindya8055/Ai-Face-Shape-Detector) | Computer-vision prototype using facial landmarks + a rule engine, with an honest accuracy write-up | FastAPI, MediaPipe, scikit-learn |
+<div align="center">
 
----
+| 🚀 PROJECT | 💡 WHAT IT DOES | 🧱 STACK |
+|:--|:--|:--|
+| **[Huntbox](https://github.com/Anindya8055/Huntbox)** | Pulls Product Hunt launches, ranks them, and adds company domains & public contacts | FastAPI · GraphQL · SQLite |
+| **[LeadMap](https://github.com/Anindya8055/Google-Maps-Scraper-)** | Google Maps lead finder with website checks (SSL, domain age) and 0–100 scoring | Next.js · Prisma · SQLite |
+| **[Face Shape Detector](https://github.com/Anindya8055/Ai-Face-Shape-Detector)** | Computer-vision prototype with an honest accuracy write-up | FastAPI · MediaPipe · scikit-learn |
 
-## 📈 Right now
+`+ 5 live web tools & a client inventory system built at work (private by company policy)`
+
+</div>
+
+<img src="assets/divider.svg" width="100%"/>
+
+## 📡 `> status --now`
 
 ```diff
-+ Writing up more malware-traffic investigations
-+ Going deeper with Splunk (eval, transaction, dashboards)
-+ Studying for ISC2 Certified in Cybersecurity (CC)
-! Open to entry-level SOC / Security Operations roles: remote, night & APAC shifts welcome
++ [ACTIVE]  Writing up more malware-traffic investigations
++ [ACTIVE]  Going deeper with Splunk: eval, transaction, dashboards
++ [ACTIVE]  Preparing for ISC2 Certified in Cybersecurity (CC)
+! [OPEN]    Entry-level SOC / Security Operations roles: remote, night & APAC shifts welcome
 ```
-
----
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Anindya8055&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00d4aa&icon_color=00d4aa&text_color=c9d1d9" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anindya8055&layout=compact&hide_border=true&bg_color=0d1117&title_color=00d4aa&text_color=c9d1d9" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Anindya8055&show_icons=true&hide_border=true&bg_color=0b0420&title_color=ff2bd6&icon_color=00f0ff&text_color=c9d1d9&ring_color=a855f7" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anindya8055&layout=compact&hide_border=true&bg_color=0b0420&title_color=ff2bd6&text_color=c9d1d9" height="165"/>
 
-<br/><br/>
+<img src="assets/divider.svg" width="100%"/>
 
-⚽ Off the keyboard: football (playing and watching), movies and series
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4aa,50:0f3d3e,100:0d1117&height=100&section=footer" width="100%"/>
+<sub>⚽ Off the keyboard: football (playing & watching) · movies & series</sub>
 
 </div>
