@@ -87,7 +87,6 @@ in my own home lab, and I write each one up like a real incident report.
 |---|---|---|
 | [**Huntbox**](https://github.com/Anindya8055/Huntbox) | Pulls Product Hunt launches, ranks them, and adds company domains & public contacts | FastAPI, GraphQL, SQLite |
 | [**LeadMap**](https://github.com/Anindya8055/Google-Maps-Scraper-) | Google Maps lead finder with website checks (SSL, domain age, platform) and 0–100 lead scoring | Next.js, Prisma, SQLite |
-| [**YouTube Summarizer**](https://github.com/Anindya8055/YouTube-Video-Summarizer) | Paste a link, get a structured AI summary, export to TXT / MD / PDF | Next.js 15, Gemini API |
 | [**Face Shape Detector**](https://github.com/Anindya8055/Ai-Face-Shape-Detector) | Computer-vision prototype using facial landmarks + a rule engine, with an honest accuracy write-up | FastAPI, MediaPipe, scikit-learn |
 
 ---
