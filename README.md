@@ -98,16 +98,16 @@
 ## 📡 `> status --now`
 
 ```diff
-+ [ACTIVE]  Writing up more malware-traffic investigations
-+ [ACTIVE]  Going deeper with Splunk: eval, transaction, dashboards
-+ [ACTIVE]  Preparing for ISC2 Certified in Cybersecurity (CC)
-! [OPEN]    Entry-level SOC / Security Operations roles: remote, night & APAC shifts welcome
++ [ACTIVE] More malware-traffic write-ups
++ [ACTIVE] Deeper Splunk: eval, transaction
++ [ACTIVE] Preparing for ISC2 CC
+! [OPEN]   Entry-level SOC roles
+! [OPEN]   Remote · night & APAC shifts
 ```
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Anindya8055&show_icons=true&hide_border=true&bg_color=0b0420&title_color=ff2bd6&icon_color=00f0ff&text_color=c9d1d9&ring_color=a855f7" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anindya8055&layout=compact&hide_border=true&bg_color=0b0420&title_color=ff2bd6&text_color=c9d1d9" height="165"/>
+<img src="https://streak-stats.demolab.com?user=Anindya8055&hide_border=true&background=0B0420&ring=A855F7&fire=FF2BD6&currStreakNum=00F0FF&sideNums=00F0FF&currStreakLabel=FF2BD6&sideLabels=C9D1D9&dates=8B949E&stroke=A855F7" width="600" alt="GitHub streak"/>
 
 <img src="assets/divider.svg" width="100%"/>
 
