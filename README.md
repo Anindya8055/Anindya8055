@@ -6,7 +6,6 @@
 
 <br/>
 
-<a href="https://www.linkedin.com/in/anindya-chakraborty-9736a2447/"><img src="https://img.shields.io/badge/LINKEDIN-0b0420?style=for-the-badge&logo=linkedin&logoColor=00f0ff&labelColor=0b0420&color=00f0ff"/></a>
 <a href="mailto:anindyac708@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0b0420?style=for-the-badge&logo=gmail&logoColor=ff2bd6"/></a>
 <a href="https://github.com/Anindya8055/soc-investigations"><img src="https://img.shields.io/badge/SOC_PORTFOLIO-0b0420?style=for-the-badge&logo=hackthebox&logoColor=a855f7"/></a>
 <img src="https://img.shields.io/badge/OPEN_TO_WORK-a855f7?style=for-the-badge&logo=target&logoColor=white"/>
