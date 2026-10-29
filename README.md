@@ -19,10 +19,10 @@
 
 <table><tr><td>
 
-**Anindya Chakraborty**, a software engineer turned **Blue Teamer** from Dhaka, Bangladesh 🇧🇩
+**Anindya Chakraborty**, a working **software engineer moving into security operations**, from Dhaka, Bangladesh 🇧🇩
 
-- 💼 **Junior Software Engineer** @ Savvy Techmart: I build and secure live web tools
-- 🛡️ **Training for SOC Analyst**: I hunt malware in real traffic captures and SIEM logs
+- 💼 **Day job:** Junior Software Engineer @ Savvy Techmart. I build, secure and run live web tools on Linux servers
+- 🛡️ **Next step:** entry-level SOC Analyst. In my home lab I hunt malware in real traffic captures and SIEM logs
 - 🎓 **B.Sc. CSE**, AIUB (2026), CGPA 3.62
 - 🧪 **Home lab:** Arch Linux, isolated low-privilege analysis account, malware **never executed**
 - 🧭 **Rule I work by:** *tag only what the evidence supports*
@@ -89,7 +89,9 @@
 | **[LeadMap](https://github.com/Anindya8055/Google-Maps-Scraper-)** | Google Maps lead finder with website checks (SSL, domain age) and 0–100 scoring | Next.js · Prisma · SQLite |
 | **[Face Shape Detector](https://github.com/Anindya8055/Ai-Face-Shape-Detector)** | Computer-vision prototype with an honest accuracy write-up | FastAPI · MediaPipe · scikit-learn |
 
-`+ 5 live web tools & a client inventory system built at work (private by company policy)`
+**At work (code private by company policy):**<br/>
+5 live web tools (image filter, converter, background remover, AI watermark remover, AI video summarizer) with secure upload handling: content-based file checks, rate limiting, CSRF protection, CSP headers, auto-deleted uploads<br/>
+A complete inventory & accounting system for a client, with role-based access, CSRF protection and an append-only audit log
 
 </div>
 
@@ -100,7 +102,7 @@
 ```diff
 + [ACTIVE] More malware-traffic write-ups
 + [ACTIVE] Deeper Splunk: eval, transaction
-+ [ACTIVE] Preparing for ISC2 CC
++ [ACTIVE] Studying for ISC2 CC
 ! [OPEN]   Entry-level SOC roles
 ! [OPEN]   Remote · night & APAC shifts
 ```
