@@ -40,10 +40,13 @@
 | **[SSH Dictionary Attack](https://github.com/Anindya8055/soc-investigations)** | Brute force | 948 failed logins from one IP, zero successes, mapped to **T1110** | Splunk SPL |
 | **[Natureforce](https://github.com/Anindya8055/soc-investigations)** | CNCmachineRMS RAT | Malware over port 9000 → SHA-256 → VirusTotal confirmed | Wireshark · tshark |
 | **[Kongtuke Rebuke](https://github.com/Anindya8055/soc-investigations)** | ClickFix | No IOC given, hunted it down through DNS & TLS SNI | Wireshark |
+| **[First to Last](https://github.com/Anindya8055/soc-investigations/blob/main/05-first-to-last.md)** | FormBook | Six flagged IPs in one filter → C2 check-in host, user & full name | Wireshark |
+| **[Lumma Stealer](https://github.com/Anindya8055/soc-investigations/blob/main/06-lumma-stealer.md)** | Lumma Stealer | ~2 MB to a stealer's C2 → found the hidden domain via TLS SNI | Wireshark |
+| **[It's a Trap!](https://github.com/Anindya8055/soc-investigations/blob/main/07-its-a-trap.md)** | PowerShell lure | Cold start, no lead → fake Microsoft domains & PowerShell fingerprinting | Wireshark |
 
 <a href="https://github.com/Anindya8055/soc-investigations"><img src="https://img.shields.io/badge/%E2%96%B6_OPEN_THE_CASE_FILES-ff2bd6?style=for-the-badge"/></a>
 
-`NEXT UP ▸ FormBook · Lumma Stealer · "It's a Trap!"`
+`7 CASES ▸ RATs · infostealers · brute force · cold-start hunting`
 
 </div>
 
@@ -99,7 +102,7 @@ A complete inventory & accounting system for a client, with role-based access, C
 ## 📡 `> status --now`
 
 ```diff
-+ [ACTIVE] More malware-traffic write-ups
++ [ACTIVE] New malware-traffic investigations
 + [ACTIVE] Deeper Splunk: eval, transaction
 + [ACTIVE] Studying for ISC2 CC
 ! [OPEN]   Entry-level SOC roles
